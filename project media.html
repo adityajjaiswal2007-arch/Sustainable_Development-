@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Industry, Innovation and Infrastructure</title>
+<script>
+    function validateform(){
+        let x = document.forms["myform"]["name"].value;
+        if (x==""){
+            alert("Name must be filled out");
+            return false;
+        }
+    }
+</script>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        height: 2;
+        background: #f5f7fa;
+        color: #222;
+    }
+    header {
+        background: #2e7d32;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    img{
+        width: 100%;
+        max-width: 650px;
+        display: block;
+        margin: 12px auto;
+        border-radius: 8px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+    footer{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Industry, Innovation and Infrastructure</h1>
+        <p>Building a sustainable and Better future.</p>
+    </header>
+        <footer><a href="industry_final (1)-1.html">Industry</a> |
+        <a href="innovation_sustainable_green (1)-1.html">Innovation</a> |
+        <a href="infrastructure_updated (1)-1.html">Infrastructure</a></footer>
+    <hr>
+            <font color="green"><h2>Industry</h2></font>
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80"
+                 alt="Modern industrial technology">
+            <p>
+                Sustainable industries create jobs, support economic growth,
+                and help improve the quality of life.
+            </p>
+            <ul>
+                <li>Eco-friendly manufacturing</li>
+                <li>Modern industries</li>
+                <li>Efficient use of resources</li>
+            </ul>
+            <font color="green"><h2>Innovation</h2></font>
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80"
+                 alt="Technology and innovation">
+            <p>
+                Innovation uses new ideas, science, and technology to solve
+                problems and create better solutions.
+            </p>
+            <ol>
+                <li>Research and development</li>
+                <li>New technologies</li>
+                <li>Creative problem solving</li>
+            </ol>
+            <font color="green"><h2>Infrastructure</h2></font>
+            <img src="https://images.unsplash.com/photo-1473445361085-b9a07f55608b?auto=format&fit=crop&w=1000&q=80"
+                 alt="Modern infrastructure and transportation">
+            <p>
+                Good infrastructure such as roads, bridges, transport,
+                electricity, and communication networks helps communities grow.
+            </p>
+            <table border="1">
+                <tr>
+                    <th>Area</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>Transport</td>
+                    <td>Roads and Railways</td>
+                </tr>
+                <tr>
+                    <td>Communication</td>
+                    <td>Internet Networks</td>
+                </tr>
+                <tr>
+                    <td>Energy</td>
+                    <td>Renewable Power</td>
+                </tr>
+            </table>
+           <font color="green"><h2>Why It Matters?</h2></font>
+            <p>
+                Industry, innovation, and infrastructure are important for
+                creating sustainable economic growth and improving people's lives.
+            </p>
+        <hr>
+
+            <font color="green"><h2>Share Your Suggestion</h2></font>
+            <form name="myform" onsubmit="return validateform()">
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text"  name="name" placeholder="Enter your name">
+                </p>
+                <p>
+                    <label for="suggestion">Suggestion:</label><br>
+                    <textarea  rows="4" cols="40" placeholder="Enter your suggestion"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </p>
+            </form>
+        <hr>
+        <footer> HOME </footer>
+</body>
+</html>
